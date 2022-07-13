@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+header {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100px;
+
+}
+.Logo {
+    width: 100px;
+    height: 100px;
+}
+
+.nombre {
+    width: 50%;
+    text-align: center;
+}
+
+nav {
+    text-align: justify;
+    padding: 30px 0px;
+    width: 30%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+section {
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    padding: 20px;
+    text-align: center;
+}
+
+.descripcion {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.ciudad {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+}
+
+.dias {
+    padding: 10px 20px 20px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+footer {
+    padding: 30px 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+/* Estilos de Turnos*/
+
+.tur {
+    display: block;
+}
+.turnos {
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    padding: 20px;
+    text-align: center;
+}
+
+.turneras {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.turnera {
+    height: 600px;
+    width: 40%;
+}
+
+/* Estilos de Contacto*/
+.formContacto {
+    display: block;
+    justify-content: center;
+    padding: 50px 400px;
+}
+form {
+    background-color: blue;
+    color: aqua;
+    font-size: 1.2em;
+    padding: 1.8em;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+form > h2 {
+    text-align: center;
+}
+
+
+
+/* media query es para ajustar diseño en pantallas pequeñas.*/
+
+@media only screen and (max-width: 600px) {
+    img, div {
+        display: block;
+    }
+    
+}
